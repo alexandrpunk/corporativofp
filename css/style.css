@@ -1,36 +1,118 @@
-body{
-    padding-top:100px;
-    background: #e0e0e0;
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700,700italic);
+html {
+    position: relative;
+    min-height: 100%;
+    height: auto!important;
 }
 
-.menu{
-    height: 90px;
-    padding: 0;
-    box-shadow:0 1px 1px rgba(0, 0, 0, 0.41);
-    border-radius: 0  0 5px 5px;
-    background: #fff;
-    border-top: solid 5px #800;
+body{
+    padding-top:90px;
+    background: #e0e0e0;
+    font-family: 'Noto Serif', serif;
+    position: static!important;
+    min-height: 0!important;
+    margin-bottom: 130px;
+
 }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    border-top: 5px solid #800;
+    padding: 10px;
+  /* Set the fixed height of the footer here */
+    height: 130px;
+}
+
+.navbar-default{
+    height: 90px;
+    box-shadow:0 1px 1px rgba(0, 0, 0, 0.41);
+    border-bottom: solid 5px #800;
+}
+.navbar-default .navbar-nava{
+    height: 85px;
+}
+.navbar-default .navbar-nav>li>a{
+    line-height: 85px;
+    vertical-align: middle;
+    padding: 0 25px; 
+    color: #800;
+    font-size: 1.2em;
+    font-weight: 400;
+    transition: linear 0.2s;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    background: #800;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus{
+    background: #800;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:active{
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+    transition: linear 0.01s;
+
+}
+
 
 .logo{
     height: 85px;
     text-align: center;
-    padding: 5px 5px 8px;
+    padding: 5px 5px 5px;
     display: block;
     transition: linear 0.2s;
 }
 
 .logo:hover{
-    background: #f5f5f5;
+    background: #f0f0f0;
 
 }
 .logo:active{
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
     transition: linear 0.01s;
-    background: #f8f8f8;
+    background: #f0f0f0;
 }
 
+.foo{
+    background-image: url(../img/law.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+}
+
+.foo h1, p{
+    margin: 0 auto 0;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2.8em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.foo p{
+    font-size: 1.2em;
+    padding: 0;
+}
+
+.cont{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
 
 .print{
     border: red solid 1px;
 }
+
+.zero{
+    margin: 0;
+    padding: 0;
+}
+
