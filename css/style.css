@@ -5,90 +5,81 @@ html {
     min-height: 100%;
     height: auto!important;
 }
-
-body{
-    padding-top:90px;
-    background: #e0e0e0;
+body {
+    padding-top: 90px;
+    background: #f0f0f0;
     font-family: 'Noto Serif', serif;
     position: static!important;
     min-height: 0!important;
-    margin-bottom:75px;
-
+    margin-bottom: 75px;
 }
-.playfair{
+.playfair {
     font-family: 'Playfair Display', serif;
 }
-
-.footer{
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height:50px;
-    background-color: #333;
-    color: #fff;
-    border-top: 5px solid #800000;
+    height: 50px;
+    background-color: #C0B0A1;
+    color: #3C3E3D;
+    border-top: 5px solid #453C37;
     padding: 10px;
 }
-
-.navbar-default{
+.navbar-default {
     height: 90px;
-    box-shadow:0 1px 1px rgba(0, 0, 0, 0.41);
-    border-bottom: solid 5px #800000;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.41);
+    border-bottom: solid 5px #453c37;
 }
-.navbar-default .navbar-nava{
+.navbar-default .navbar-nava {
     height: 85px;
 }
-.navbar-default .navbar-nav>li>a{
+.navbar-default .navbar-nav>li>a {
     line-height: 85px;
     vertical-align: middle;
-    padding: 0 25px; 
-    color: #800000;
+    padding: 0 25px;
+    color: #453c37;
     font-size: 1.2em;
     font-weight: 400;
     transition: linear 0.2s;
 }
-.navbar-default .navbar-nav>li>a:hover{
-    background: #800000;
+.navbar-default .navbar-nav>li>a:hover {
+    background: #453c37;
     color: #fff;
 }
-.navbar-default .navbar-nav>li>a:focus{
-    background: #800000;
+.navbar-default .navbar-nav>li>a:focus {
+    background: #453c37;
     color: #fff;
 }
-.navbar-default .navbar-nav>li>a:active{
+.navbar-default .navbar-nav>li>a:active {
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
     transition: linear 0.01s;
-
 }
-
-
-.logo{
+.logo {
     height: 85px;
     text-align: center;
-    padding: 5px 5px 5px;
+    padding: 10px;
     display: block;
     transition: linear 0.2s;
 }
-
-.logo:hover{
+.logo:hover {
     background: #f0f0f0;
-
 }
-.logo:active{
+.logo:active {
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
     transition: linear 0.01s;
-    background: #f0f0f0;
 }
-
-.foo{
-    background-image: url(../img/law.jpg);
+.foo {
+    background-image: url(../img/cover.png);
     width: 100%;
     height: 350px;
+    background-position: 50%;
+    background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 15px;
 }
-
-.foo h1, .foo p{
+.foo h1,
+.foo p {
     margin: 0 auto 0;
     padding: 10px;
     text-align: center;
@@ -98,106 +89,95 @@ body{
     font-size: 2.8em;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
 }
-
-.foo p{
+.foo p {
     font-size: 1.2em;
     padding: 0;
     margin-bottom: 15px;
 }
-
-.cont{
+.cont {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
-
-.print{
+.print {
     border: red solid 1px;
 }
-
-.zero{
+.zero {
     margin: 0;
     padding: 0;
 }
-
-.boxes{
+.boxes {
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3);
     margin: 15px 0;
     transition: linear 0.1s;
     display: block;
-    background-color: #800000;
+    background-color: #453c37;
     font-size: 1.1em;
 }
-
-.boxes:hover, .boxes:focus{
+.boxes:hover,
+.boxes:focus {
     box-shadow: 0 1px 5px 2px rgba(0, 0, 0, 0.2);
     transition: linear 0.1s;
     text-decoration: none;
-    background-color: #6c0000;
+    background-color: #C0B0A1;
 }
-
-.cuot{
+.boxes:hover p,
+.boxes:focus p {
+    color: #453c37;
+}
+.cuot {
     width: 100%;
-    height: 200px; 
+    height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 5%;
 }
-
-.boxes p{
+.boxes p {
     width: 100%;
     height: 50px;
     line-height: 50px;
     vertical-align: middle;
     margin: 0;
-    color: #fff ;
+    color: #fff;
     background: transparent;
     font-weight: 900;
     text-align: center;
     font-size: 1.2em;
     font-family: 'Playfair Display', serif;
 }
-
-
-.mini{
+.mini {
     height: 60px;
 }
-
-.decor{
+.decor {
     background-image: url(../img/pix.png);
     background-size: 100% 2px;
     background-repeat: no-repeat;
     background-position: center;
-    margin:20px 0 20px;
+    margin: 20px 0 20px;
 }
-
-.decor span{
-    background: #e0e0e0;
+.decor span {
+    background: #f0f0f0;
     padding: 5px 15px;
-    color: #333;
+    color: #3C3E3D;
     font-family: 'Playfair Display', serif;
     font-weight: 900;
 }
-
 .btn-fp {
     background-color: transparent;
     border: solid 1px #fff;
     color: #fff;
     transition: linear 0.2s;
-
 }
-
-.btn-fp:hover{
-    background-color: #800000;
+.btn-fp:hover {
+    background-color: #453c37;
     border-color: transparent;
     color: #fff;
 }
-
 .btn-fp:active,
 .btn-fp:focus,
 .btn-fp.active {
-    background-color: #800000;
+    background-color: #453c37;
     border-color: transparent;
     color: #fff;
     box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.5);
@@ -218,53 +198,48 @@ fieldset[disabled] .btn-fp.active {
     border-color: #7b2424;
     color: #fff;
 }
-
-.gallery{
+.gallery {
     height: 180px;
     margin: 35px 0 15px;
     background: #fff;
 }
-
-.nos{
+.nos {
     max-height: 200px;
     margin: 10px auto;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
     border-radius: 3px;
-
 }
-
-.serv{
+.serv {
     background: #ededed;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
-
+    margin: 15px 0;
 }
-.serv h3{
+.serv h3 {
     margin: 0;
     font-size: 1.5em;
     line-height: 2em;
     vertical-align: middle;
-    background-color: #800000;
+    background-color: #453c37;
     color: #fff;
     font-weight: 900;
     font-family: 'Playfair Display', serif;
 }
-.serv p{
+.serv p {
     margin: 0;
     padding: 12px;
     color: #363636;
 }
-.serv-header{
+.serv-header {
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 5%;
 }
-
-.mega{
-    margin: 0 0 30px;
-    font-size: 1.1em;
+.mega {
+    margin: 0 20px;
+    font-size: 1.3em;
 }
-.coment{
+.coment {
     background: #fff;
     padding: 15px;
     border-radius: 4px;
@@ -272,70 +247,62 @@ fieldset[disabled] .btn-fp.active {
     border: solid 1px #d1d1d1;
     margin-bottom: 15px;
 }
-
-.coment img{
+.coment img {
     height: 120px;
     border-radius: 200px;
-    border: 5px solid #800;
+    border: 5px solid #453c37;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
 }
-
-.coment h4{
-    color: #800;
+.coment h4 {
+    color: #453c37;
     font-weight: 900;
     font-size: 1.7em;
 }
-.coment q{
+.coment q {
     color: #333;
     font-weight: 400;
     font-size: 1.08em;
     line-height: 1.7em;
 }
-
-.clients{
-
+.clients {
     margin-bottom: 15px;
 }
-.clients img{
+.clients img {
     max-width: 170px;
     max-height: 115px;
     margin: 10px;
 }
-.frame{
-    border: 4px solid #800;
+.frame {
+    border: 4px solid #453c37;
     border-radius: 3px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
 }
-.contact-box{
+.contact-box {
     background: #fff;
-    border-top: #800 solid 4px;
+    border-top: #453c37 solid 4px;
     padding: 10px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
 }
-.contact-box label{
+.contact-box label {
     font-size: 1.2em;
-    color: #800;
+    color: #453c37;
 }
-
 .btn-fp2 {
-    background-color: #800;
+    background-color: #453c37;
     border: solid 1px #fff;
     color: #fff;
     transition: linear 0.2s;
     font-weight: bold;
-
 }
-
-.btn-fp2:hover{
+.btn-fp2:hover {
     background-color: #690000;
     border-color: transparent;
     color: #fff;
 }
-
 .btn-fp2:active,
 .btn-fp2:focus,
 .btn-fp2.active {
-    background-color: #800000;
+    background-color: #453c37;
     border-color: transparent;
     color: #fff;
     box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.5);
@@ -355,4 +322,30 @@ fieldset[disabled] .btn-fp2.active {
     background-color: #7b2424;
     border-color: #7b2424;
     color: #fff;
+}
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    border: solid 3px #453c37 !important;
+    border-radius: 3px;
+}
+
+.center-col-align {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 767px) {
+    .row.center-col-align {
+        display: block;
+    }
 }
